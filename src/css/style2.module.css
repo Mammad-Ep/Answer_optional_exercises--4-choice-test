@@ -1,0 +1,101 @@
+.gallery-container{
+    margin: 20px auto;
+    width: 85%;
+    height: auto;
+    border: 0.5px solid #fafafa;
+    border-radius: 5px;
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    background-color: #fafafa;
+}
+
+.photo-gallery{
+    width: 500px;
+    height: 500px;
+}
+
+.photo-container{
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px 15px;
+    gap: 60px;
+    
+}
+
+.photo-harizental{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.photo-details{
+    width: 70%;
+    margin: 10px;
+    text-align: center;
+}
+
+.photo-details h3{
+    background-color: darkgreen;
+    color: aliceblue;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: auto;
+}
+
+.photo-details div{
+    font-size: 1.5rem;
+    margin: 30px 0;
+}
+
+.btn-return{
+    margin: 20px 0;
+    background-color: rgb(41, 41, 244);
+    padding: 13px 40px;
+    font-size: 1.2rem;
+    border: none;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+
+.btn-return:hover{
+    background-color: rgb(65, 65, 241);
+}
+
+.search-box{
+    margin: 20px auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.search-box input{
+    width: 100%;
+    height: 45px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 0.5px solid #ccc;
+    outline: none;
+    direction: ltr;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    color: rgb(44, 44, 44);
+}
+
+.search-box input::placeholder{
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    color: #ccc;
+}

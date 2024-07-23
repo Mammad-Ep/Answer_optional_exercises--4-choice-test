@@ -13,6 +13,7 @@ const store = configureStore({
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(CartApi.middleware)
 })
 
+
 export type AppDispatch = typeof store.dispatch;
 export type IRootState = ReturnType<typeof store.getState>;
 
