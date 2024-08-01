@@ -1,0 +1,236 @@
+.quizReact-container{
+    width: 60%;
+    height: 500px;
+    margin: 30px auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 245, 230);
+}
+
+.quizReact-container h1{
+    color: orangered;
+    background-color: yellow;
+    padding: 10px 15px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.quizReact-container p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.form-Info-box{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.form-Info-box input{
+    width: 300px;
+    height: 35px;
+    outline: none;
+    border: 0.5px solid #ccc;
+    margin: 15px 0;
+    padding: 0 7px;
+    font-size: 0.9rem;
+    color: rgb(41, 40, 40);
+}
+
+.form-Info-box button{
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: forestgreen;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form-Info-box button:hover{
+    background-color: rgb(45, 168, 45);
+}
+
+.question-container,.result-container{
+    width: 60%;
+    background-color: #fafafa;
+    border-radius: 7px;
+    padding: 20px 15px;
+    margin: 20px auto;
+}
+
+.question-container>div:first-of-type{
+    background-color: gold;
+    padding: 10px 5px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.question-container>div:first-of-type strong{
+    font-size: 1.3rem;
+}
+
+.question-container>div:first-of-type span{
+    color: #2c2c2c;
+}
+
+.question-container .text-question{
+    background-color: rgb(192, 250, 249);
+    height: 50px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+    margin: 15px 0;
+}
+.question-container .text-question p{
+    font-size: 1.1rem;
+}
+
+.question-container .text-question span{
+    color: red;
+    font-weight: 700;
+}
+
+.question-container .question-form{
+    margin-right: 40px;
+}
+.question-container .question-form>div{
+    margin-bottom: 20px;
+}
+
+.question-container .question-form>div label{
+    position: relative;
+    font-size: 1.1rem;
+}
+
+
+
+input[type=radio]{
+  /* Hide original inputs */
+  visibility: hidden;
+  /* position: absolute; */
+  margin-left: 0px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+input[type=radio] + label:before{
+    content: url('../img/icons/check-box-empty.png');
+    right: -25px;
+    top: 4px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+
+
+    /* margin-right: 2px;
+    content: " ";
+    display:inline-block;
+    vertical-align: baseline;
+    border:1px solid #777; */
+}
+
+input[type=radio]:checked + label:before{
+    content: url('../img/icons/check-box.png');
+    /* background:gold; */
+}
+
+.btn-form-box{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.next-question,
+.previous-question,
+.complate-quiez-btn{
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 1.1rem;
+    background-color: #04d04f;
+    color: #fafafa;
+    margin: 0 10px;
+}
+
+.previous-question{
+    color: #ccc;
+    background-color: gray;
+}
+
+.complate-quiez-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: rgb(240, 51, 51);
+    color: azure;
+}
+
+button:not(.complate-quiez-btn):disabled{
+    border: 1px solid gray;
+    background-color: transparent;
+    color: #ccc;
+    cursor: default;
+}
+
+.table-result{
+    margin: 20px auto;
+    width: 800px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+    
+}
+
+.table-result thead tr:first-of-type{
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.table-result caption{
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: gold;
+    padding: 10px;
+}
+.text-passingExam{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 1.3rem;
+}
+
+.text-passingExam span.passingExam{
+    background-color: rgb(21, 219, 21);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: darkblue;
+}
+
+.text-passingExam span{
+    background-color: rgb(251, 56, 56);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.text-tip{
+    text-align: center;
+    font-weight: 700;
+}
+
+.text-tip span{
+    color: red;
+}

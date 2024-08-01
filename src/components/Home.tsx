@@ -54,11 +54,25 @@ import { Img } from './styled-components/styledComponent1';
 // ===========================================================
 
 // Exercise2--Gallery_photos
+// const Home = () => {
+  
+//   return (
+//     <div>
+//       <p style={{textAlign:"center",fontSize:"1.5rem"}}>تمرین 2 - در بخش گالری عکس ها_Photo Gallery</p>
+//     </div>
+//   )
+  
+// }
+
+// export default Home
+// ===========================================================
+
+// Exercise3--React_Quiz_Example
 const Home = () => {
 
   return (
     <div>
-      <p style={{textAlign:"center",fontSize:"1.5rem"}}>تمرین 2 - در بخش گالری عکس ها_Photo Gallery</p>
+      <p style={{textAlign:"center",fontSize:"1.5rem"}}>تمرین 3 - در آزمون ریکت_React Quiz Example</p>
     </div>
   )
 

@@ -1,0 +1,216 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "text_question": "کدام یک از گزینه ها درReact برای نمایش شرطی محتوا استفاده می شود؟",
+      "options": [
+        "ternary oprator",
+        "for loop",
+        "switch case",
+        "if statment"
+      ],
+      "correct_answer": 1,
+      "question_score": 2,
+      "status": true
+    },
+    {
+      "id": "2",
+      "text_question": "کدام یک از گزینه ها برای به اشتراک گذاری کامپوننت ها در React استفاده می شود؟",
+      "options": [
+        "sharing",
+        "export()",
+        "import()",
+        "connect()"
+      ],
+      "correct_answer": 2,
+      "question_score": 2,
+      "status": true
+    },
+    {
+      "id": "3",
+      "text_question": "کدام مفهوم در React برای اطلاع رسانی از تغییرات در داده ها استفاده می شود؟",
+      "options": [
+        "setState()",
+        "updateState()",
+        "changeState()",
+        "modifyState()"
+      ],
+      "correct_answer": 1,
+      "question_score": 2,
+      "status": true
+    },
+    {
+      "id": "4",
+      "text_question": "کدام یک از مزایای استفاده از React است؟",
+      "options": [
+        "سرعت بالا",
+        "توسعه آسان",
+        "بهبود عملکرد",
+        "همه موارد"
+      ],
+      "correct_answer": 4,
+      "question_score": 2,
+      "status": true
+    },
+    {
+      "id": "5",
+      "text_question": "در React کدام گزینه برای اعمال استایل به المانها درسا است؟",
+      "options": [
+        "استفاده از inline style",
+        "استفاده از external css file",
+        "استفاده از styled-components",
+        "تمامی موارد"
+      ],
+      "correct_answer": 4,
+      "question_score": 2,
+      "status": true
+    },
+    {
+      "id": "6",
+      "text_question": "چطور میتوان ساختارهای asynchronous را داخل React هندل کرد؟",
+      "options": [
+        "با استفاده از callbacks",
+        "با استفاده از promise",
+        "با استفاده از async/await",
+        "تمام موارد"
+      ],
+      "correct_answer": 4,
+      "question_score": 2,
+      "status": true
+    },
+    {
+      "id": "7",
+      "text_question": "چطور میتوان ارورها را داخل کامپوننت ریکتی هدنل کرد؟",
+      "options": [
+        "با استفاده از عبارت try/catch",
+        "با استفاده از error boundaries",
+        "با استفاده از عبارات شرطی",
+        "با استفاده از event listeners"
+      ],
+      "correct_answer": 2,
+      "question_score": 2,
+      "status": true
+    },
+    {
+      "id": "8",
+      "text_question": "هدف از استفاده کردن از هوک useEffect چیست؟",
+      "options": [
+        "برای هندل کردن HTTP requests",
+        "برای مدیریت تغییرات state",
+        "برای هندل کردن لایف سایکل ها در فانکشنال کامپوننت ها",
+        "برای هندل کردن فرم ها"
+      ],
+      "correct_answer": 3,
+      "question_score": 2,
+      "status": true
+    },
+    {
+      "id": "9",
+      "text_question": "چطور میتوان سرعت برنامه ریکتی را افزایش داد؟",
+      "options": [
+        "با استفاده از memo در ریکت",
+        "با به حداقل رساندن state ها",
+        "با جلوگیری از re-render های بیهوده",
+        "تمام موارد"
+      ],
+      "correct_answer": 4,
+      "question_score": 2,
+      "status": true
+    },
+    {
+      "id": "10",
+      "text_question": "ریداکس چیست؟",
+      "options": [
+        "یک کتابخانه برای server-side rendering",
+        "یک کتابخانه برای تامین کامپوننت های آماده",
+        "یک کتابخانه برای مدیریت state ها",
+        "یک کتابخانه برای هندل کردن routing"
+      ],
+      "correct_answer": 3,
+      "question_score": 2,
+      "status": true
+    }
+  ],
+  "examiners": [
+    {
+      "id": "e440",
+      "name": "الهه",
+      "family": "رضایی",
+      "phone_number": "09125148798",
+      "exam_score": 16,
+      "numberRightAnswers": 8,
+      "numberWrongAnswers": 2,
+      "passingExam": true
+    },
+    {
+      "id": "9fca",
+      "name": "احمد",
+      "family": "ساکی",
+      "phone_number": "09126529897",
+      "exam_score": 6,
+      "numberRightAnswers": 3,
+      "numberWrongAnswers": 7,
+      "passingExam": false
+    },
+    {
+      "id": "5421",
+      "name": "سقرا",
+      "family": "بهشتی",
+      "phone_number": "09146597974",
+      "exam_score": 12,
+      "numberRightAnswers": 6,
+      "numberWrongAnswers": 4,
+      "passingExam": false
+    },
+    {
+      "id": "1274",
+      "name": "احمد",
+      "family": "فدایی",
+      "phone_number": "09212559771",
+      "exam_score": 10,
+      "numberRightAnswers": 5,
+      "numberWrongAnswers": 5,
+      "passingExam": false
+    },
+    {
+      "id": "cd61",
+      "name": "دارا",
+      "family": "دارنده",
+      "phone_number": "09124497978",
+      "exam_score": 8,
+      "numberRightAnswers": 4,
+      "numberWrongAnswers": 6,
+      "passingExam": false
+    },
+    {
+      "id": "645b",
+      "name": "حسین",
+      "family": "احمدی",
+      "phone_number": "09182146411",
+      "exam_score": 18,
+      "numberRightAnswers": 9,
+      "numberWrongAnswers": 1,
+      "passingExam": true
+    },
+    {
+      "id": "bc13",
+      "name": "سارا",
+      "family": "بیاتی",
+      "phone_number": "09143247421",
+      "exam_score": 14,
+      "numberRightAnswers": 7,
+      "numberWrongAnswers": 3,
+      "passingExam": true
+    },
+    {
+      "id": "b1f7",
+      "name": "حبیب",
+      "family": "حسنی",
+      "phone_number": "09136577111",
+      "exam_score": 20,
+      "numberRightAnswers": 10,
+      "numberWrongAnswers": 0,
+      "passingExam": true
+    }
+  ]
+}
